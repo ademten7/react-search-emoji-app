@@ -9,7 +9,7 @@ function App() {
 
   const searchEmoji = (e) => {
     let searchedEmojis = data.filter((emoji) =>
-      emoji.keywords.includes(e.target.value)
+      emoji.keywords.includes((e.target.value).toLowerCase())
     );
     setEmojisList(searchedEmojis);
   };
