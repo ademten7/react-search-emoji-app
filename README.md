@@ -14,6 +14,6 @@ add sources file inside the json.file
 
 - npm i react-clipboard-simple
 
-- import ReactClipboard from "react-clipboard-simple";
+- import ReactClipboard from 'react-clipboard-simple'
 
 ![secreenshot](Screenshot_Emojis.png)
